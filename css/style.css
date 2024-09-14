@@ -1,0 +1,63 @@
+:root {
+  --custom-secondary-color: #fdb141;
+  --custom-primary-color: #1e1e1e;
+  --custom-light-color: #f3f4f6;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-custom-secondary {
+  color: var(--custom-secondary-color);
+}
+
+.text-custom-primary {
+  color: var(--custom-primary-color);
+}
+
+.bg-custom-secondary {
+  background-color: var(--custom-secondary-color);
+}
+
+.bg-custom-primary {
+  background-color: var(--custom-primary-color);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  font-weight: 600 !important;
+}
+.nav-link:hover {
+  color: var(--custom-secondary-color) !important;
+}
+
+.bg-custom-light {
+  background-color: var(--custom-light-color);
+}
+
+input,
+textarea,
+select {
+  background-color: var(--custom-light-color) !important;
+}
+
+.list-group-item input[type="radio"]:checked {
+  background-color: var(--custom-secondary-color) !important;
+}
+
+input:focus {
+  border: 1px solid var(--custom-secondary-color) !important;
+  box-shadow: none !important;
+}
